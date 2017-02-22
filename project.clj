@@ -8,7 +8,9 @@
   :target-path "target/%s"
   :profiles {:greedy {:main cs50-clojure.greedy.core}
              :mario {:main cs50-clojure.mario.core}
-             :caesar {:main cs50-clojure.caesar.core}}
+             :caesar {:main cs50-clojure.caesar.core}
+             :vigenere {:main cs50-clojure.vigenere.core}}
   :aliases {"run-greedy" ["with-profile" "greedy" "run"]
             "run-mario" ["with-profile" "mario" "run"]
-            "run-caesar" ["with-profile" "caesar" "run"]})
+            "run-caesar" ["with-profile" "caesar" "run"]
+            "run-vigenere" ["with-profile" "vigenere" "run"]})
