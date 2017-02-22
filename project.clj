@@ -6,5 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot cs50-clojure.core
   :target-path "target/%s"
-  :profiles {:greedy {:main cs50-clojure.greedy.core}}
-  :aliases {"run-greedy" ["with-profile" "greedy" "run"]})
+  :profiles {:greedy {:main cs50-clojure.greedy.core}
+             :mario {:main cs50-clojure.mario.core}}
+  :aliases {"run-greedy" ["with-profile" "greedy" "run"]
+            "run-mario" ["with-profile" "mario" "run"]})
