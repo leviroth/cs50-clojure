@@ -7,6 +7,8 @@
   :main ^:skip-aot cs50-clojure.core
   :target-path "target/%s"
   :profiles {:greedy {:main cs50-clojure.greedy.core}
-             :mario {:main cs50-clojure.mario.core}}
+             :mario {:main cs50-clojure.mario.core}
+             :caesar {:main cs50-clojure.caesar.core}}
   :aliases {"run-greedy" ["with-profile" "greedy" "run"]
-            "run-mario" ["with-profile" "mario" "run"]})
+            "run-mario" ["with-profile" "mario" "run"]
+            "run-caesar" ["with-profile" "caesar" "run"]})
