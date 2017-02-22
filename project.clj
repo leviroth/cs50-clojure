@@ -1,8 +1,8 @@
 (defproject cs50-clojure "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "Clojure implementation of some CS50 problem sets"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "CC BY-NC-SA 3.0"
+            :url "https://creativecommons.org/licenses/by-nc-sa/3.0/"}
   :dependencies [[org.clojure/clojure "1.8.0"]]
   :main ^:skip-aot cs50-clojure.core
   :target-path "target/%s"
