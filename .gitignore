@@ -1,3 +1,7 @@
+test/
+doc/
+CHANGELOG.md
+
 /target
 /classes
 /checkouts
